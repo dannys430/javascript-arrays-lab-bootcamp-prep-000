@@ -24,6 +24,10 @@ function prependKitten(name) {
   return ["Arnold", ...kittens];
 }
 
+function removeLastKitten() {
+  kittens.slice(-1);
+}
+
 //define your array here
 
 // Add your functions and code here
