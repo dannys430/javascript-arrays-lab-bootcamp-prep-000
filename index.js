@@ -21,7 +21,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  return ["Arnold", ...kittens];
+  return concat("Arnold").kittens;
 }
 
 //define your array here
